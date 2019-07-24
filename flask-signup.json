@@ -5,8 +5,8 @@
         {
             "image": "459155376066.dkr.ecr.us-east-1.amazonaws.com/jenkins:v_%BUILD_NUMBER%",
             "name": "ecs-container",
-            "cpu": 200,
-            "memory": 1000,
+            "cpu": 128,
+            "memory": 500,
             "essential": true,
             "portMappings": [
                 {
