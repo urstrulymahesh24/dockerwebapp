@@ -3,7 +3,7 @@
     "family": "flask-signup",
     "containerDefinitions": [
         {
-            "image": "459155376066.dkr.ecr.us-east-1.amazonaws.com/jenkins:v_%BUILD_NUMBER%",
+            "image": "459155376066.dkr.ecr.us-east-1.amazonaws.com/jenkins:version_%BUILD_NUMBER%",
             "name": "ecs-container",
             "cpu": 128,
             "memory": 500,
