@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "image": "459155376066.dkr.ecr.us-east-1.amazonaws.com/jenkins:v_%BUILD_NUMBER%",
-            "name": "flask-signup",
+            "name": "ecs-container",
             "cpu": 10,
             "memory": 256,
             "essential": true,
