@@ -6,7 +6,7 @@ node {
 
         def customImage = docker.build("miltonc/dockerwebapp")
 
-        /* Push the container to the custom Registry */
+        /* Push the container to the d custom Registry */
         customImage.push()
     }
 }
